@@ -1,0 +1,130 @@
+
+/* Universal */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.spacer
+{
+    width: 100%;
+    height: 72px;
+}
+
+
+/* Header */
+header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+
+}
+
+header .logo {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+header a {
+  color: seashell;
+}
+
+header nav {
+  margin-right: 10px;
+}
+
+/* Our Mission Section */
+
+.our-mission {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background-image: url("/Users/theo/Documents/Projects/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+}
+
+.our-mission-text {
+  background-color: black;
+}
+
+/* Teas Section */
+
+.teas-container {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.teas-content {
+  padding: 10px;
+}
+
+.teas-content img {
+  height: 200px;
+  width: 300px;
+}
+
+
+/* Locations Section */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url("/Users/theo/Documents/Projects/teacozy/resources/images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations-content {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* Contact Section */
+.contact {
+  height: 200px;
+  width: auto;
+  margin: auto;
+}
+
+.contact h2 {
+  padding-bottom: 15px;
+}
+
+/* Copyright Section */
+.footer h5 {
+  float: left;
+  margin-left: 20px;
+}
